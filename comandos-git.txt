@@ -1,0 +1,64 @@
+LINK PARA BAIXAR O GIT
+git-scm.com
+ 
+INICIAR UM NOVO PROJETO COM GIT
+git init
+ 
+ADD OS ARQUIVOS QUE ESTÃO PRONTOS PARA SEREM COMMITADOS
+git add <nome-arquivo>/ ou .
+ 
+COMMIT OS ARQUIVOS NO HISTÓRICO
+git commit -m "<Sua mensagem de commit>"
+ 
+COMMIT NO ULTIMO COMMIT
+git commit --amend -m "<Sua mensagem de commit>"
+ 
+MOSTRA  TODOS OS COMMITS
+git log
+ 
+MOSTRA O QUE FOI ALTERADO NA RAMIFICAÇÃO
+git diff
+ 
+CRIA UMA NOVA BRANCH A PARTIR DA BRANCH ATUAL
+git branch -b <nome-da-nova-branch>
+ 
+LISTAR E MOSTRAR AS BRANCH E MOSTRAR A BRANCH ATUAL(que estamos)
+git branch
+ 
+MUDA PARA ESTA BRANCH
+git checkout <nome-branch>
+ 
+MERGE DE RAMIFICAÇÃO(mescla ramificação)
+git merge
+ 
+CONFIGURA O USUÁRIO DO GITHUB
+git config --global user.name "<seu-nome>"
+ 
+CONFIGURA O EMAIL DO GITHUB
+git config  --global user.email "<seuemail@gmail.com>"
+ 
+MOSTRA TODAS AS CONFIGURAÇÕES QUE TEMOS JÁ FEITO
+git config --global --list
+ 
+MOSTRA TODAS AS CONFIGURAÇÕES QUE PODEMOS FAZER
+git config --list
+ 
+MANDA NOSSAS ALTERAÇÕES LOCAIS PARA O REPOSITÓRIO REMOTO, PARA CADA BRANCH
+git remote add origin <nome-da-branch>
+ 
+MANDA NOSSAS ALTERAÇÕES LOCAIS PARA O REPOSITORIO REMOTO
+git push
+git push origin <nome-da-branch>
+ 
+PEGA AS ALTERAÇÕES DO REPOSITÓRIO REMOTO E JOGA PARA NOSSA MAQUINA
+git pull
+git pull origin  <nome-da-branch>
+ 
+ATUALIZA O NOSSO HISTÓRICO LOCAL DE ACORDO COM O HISTÓRICO SALVO LA NO REPOSITÓRIO REMOTO
+git fetch
+ 
+COPIA(CLONA UM REPOSITORIO)
+git clone <url-do-repositorio>
+ 
+VOLTA PARA O ARQUIVO ORIGINAL, CANCELA TODAS AS MODIFICAÇÕES FEITAS
+git restore <nome-do-arquivo>
